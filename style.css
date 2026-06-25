@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.header{
+    font-style: italic;
+    /* color implementation by Name */
+    color:gold ;
+    background-color: #b4aaa1;    
+}
+.header p{
+    font-weight: 400;
+}
+
+nav{
+    font-weight: bold;
+    font-size: medium;
+    
+}
+nav>a{
+    color: rgb(161, 73, 73);
+    background-color: #96FF7A;
+}
+nav>a:hover{
+    font-size: large;
+    color: rgb(37, 9, 193);
+    background-color: rgba(91, 237, 142, 0.758);
+}
+nav>p{
+    color: rgba(217, 40, 145, 0.57);
+}
+
+main > h3{
+    color: rgb(48, 59, 84);
+}
+
+.container1{
+    width: 80%;
+    height: 350px;
+    background-color: hsl(210, 60%, 92%);
+    border: 2px solid hsl(210, 91%, 27%);
+}
+
+.btn1{
+    height: 180px;
+    width: 350px;
+    border: 4px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 260px;
+    padding-left: 55px;
+}
+ main .btn1 button{}
+
+.btn1 button{
+        height: 50px;
+        width: 150px;
+        background-color: hsla(312, 87%, 83%, 0.863);
+        margin: 50px;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 600;
+        border: 2px solid hsla(312, 88%, 33%, 0.885);
+        
+}
+.btn1 button:hover{
+    height:100px;
+    width: 180px;
+    background-color: hsla(207, 62%, 83%, 0.863);
+    border: 2px solid hsla(107, 95%, 51%, 0.885);
+    border-radius: 25px;
+}
+
+.break2{
+    height: 300px;
+    width: 650px;
+    border: 2px solid blue;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+
+.break2 img{
+    height: 200px;
+    width:300px;
+    float: right;
+}

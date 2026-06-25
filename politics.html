@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politics Daily News</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+        color:#333;
+    }
+
+    header{
+        background:#0d47a1;
+        color:white;
+        padding:20px;
+        text-align:center;
+    }
+
+    nav{
+        background:#1565c0;
+        padding:12px;
+        text-align:center;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-weight:bold;
+    }
+
+    .container{
+        width:90%;
+        max-width:1200px;
+        margin:20px auto;
+    }
+
+    .breaking-news{
+        background:#d32f2f;
+        color:white;
+        padding:12px;
+        border-radius:5px;
+        margin-bottom:20px;
+        font-weight:bold;
+    }
+
+    .main-news{
+        display:grid;
+        grid-template-columns:2fr 1fr;
+        gap:20px;
+    }
+
+    .featured{
+        background:white;
+        padding:20px;
+        border-radius:8px;
+        box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .featured img{
+        width:100%;
+        border-radius:8px;
+        margin-bottom:15px;
+    }
+
+    .sidebar{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .card{
+        background:white;
+        padding:15px;
+        border-radius:8px;
+        box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .latest-news{
+        margin-top:30px;
+    }
+
+    .latest-news h2{
+        margin-bottom:15px;
+        color:#0d47a1;
+    }
+
+    .news-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .news-item{
+        background:white;
+        padding:15px;
+        border-radius:8px;
+        box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer{
+        margin-top:40px;
+        background:#0d47a1;
+        color:white;
+        text-align:center;
+        padding:20px;
+    }
+
+    @media(max-width:768px){
+        .main-news{
+            grid-template-columns:1fr;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Politics Daily</h1>
+    <p>Your Trusted Source for Political News & Analysis</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">National</a>
+    <a href="#">International</a>
+    <a href="#">Elections</a>
+    <a href="#">Policies</a>
+    <a href="#">Opinion</a>
+</nav>
+
+<div class="container">
+
+    <div class="breaking-news">
+        🔴 Breaking News: Major policy announcement expected later today.
+    </div>
+
+    <section class="main-news">
+
+        <div class="featured">
+            <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200" alt="Politics News">
+            <h2>Government Unveils New Economic Reform Plan</h2>
+            <p>
+                Officials announced a comprehensive reform package aimed at boosting
+                economic growth, improving infrastructure, and creating employment
+                opportunities across the country.
+            </p>
+            <br>
+            <button style="padding:10px 20px;background:#1565c0;color:white;border:none;border-radius:5px;cursor:pointer;">
+                Read Full Story
+            </button>
+        </div>
+
+        <div class="sidebar">
+
+            <div class="card">
+                <h3>Election Updates</h3>
+                <p>Latest campaign developments and candidate announcements from across the nation.</p>
+            </div>
+
+            <div class="card">
+                <h3>Parliament Session</h3>
+                <p>Lawmakers debate key legislation covering economic and social issues.</p>
+            </div>
+
+            <div class="card">
+                <h3>Global Affairs</h3>
+                <p>World leaders meet to discuss trade, security, and climate initiatives.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="latest-news">
+        <h2>Latest Headlines</h2>
+
+        <div class="news-grid">
+
+            <div class="news-item">
+                <h3>Budget Discussions Continue</h3>
+                <p>Finance officials present updated projections and spending priorities.</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Foreign Policy Talks</h3>
+                <p>Diplomatic meetings focus on regional stability and economic cooperation.</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Local Governance Reform</h3>
+                <p>New proposals aim to increase transparency and public participation.</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Policy Analysis</h3>
+                <p>Experts examine the long-term impact of recent legislative changes.</p>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Politics Daily News. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
