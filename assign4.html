@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comprehensive Feedback Hub</title>
+</head>
+<body>
+    <header>
+        <a href="image.html">
+            <img src="image/img1.jpg" alt="Company Logo" width="150">
+        </a>
+        <h1>Customer Feedback Hub</h1>
+        <p>We value your feedback and suggestions.</p>
+    </header>
+
+    <hr>
+    <section>
+        <h2>Recent Customer Reviews</h2>
+
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Customer Name</th>
+                <th>Review Summary</th>
+                <th>Rating</th>
+            </tr>
+
+            <tr>
+                <td>Datta Pawar</td>
+                <td>Excellent customer service and fast delivery.</td>
+                <td>
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nikhil Suryawanshi</td>
+                <td>Very good experience overall.</td>
+                <td>
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mohan Chapate</td>
+                <td>Good quality products but delivery was delayed.</td>
+                <td>
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                    <img src="image/star.jpg" alt="Star" width="20">
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Submit Your Feedback</h2>
+
+        <form  enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname"
+                       placeholder="Enter your full name" required>
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email address" required>
+                <br><br>
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Feedback Details</legend>
+
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments"
+                          name="comments"
+                          rows="6"
+                          cols="50"
+                          placeholder="Share your experience..."
+                          required></textarea>
+                <br><br>
+
+                <p><strong>Features You Liked:</strong></p>
+
+                <input type="checkbox" id="quality" name="features[]" value="Quality">
+                <label for="quality">Product Quality</label><br>
+
+                <input type="checkbox" id="service" name="features[]" value="Service">
+                <label for="service">Customer Service</label><br>
+
+                <input type="checkbox" id="delivery" name="features[]" value="Delivery">
+                <label for="delivery">Fast Delivery</label><br>
+
+                <input type="checkbox" id="website" name="features[]" value="Website">
+                <label for="website">Website Experience</label><br>
+            </fieldset>
+
+            <br>
+
+        
+            <fieldset>
+                <legend>Upload Supporting Image</legend>
+
+                <label for="photo">Attach an Image:</label><br>
+                <input type="file"
+                       id="photo"
+                       name="photo"
+                       accept="image/*">
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit Feedback">
+            <input type="reset" value="Clear Form">
+
+        </form>
+    </section>
+
+</body>
+</html>

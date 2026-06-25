@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Portal</title>
+</head>
+<body>
+
+    <h2>User Registration Portal</h2>
+
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"
+               placeholder="Enter your username" required><br><br>
+        <label for="email">User Email:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email address" required><br><br>
+        <label for="password">Secret Password:</label><br>
+        <input type="password" id="password" name="password"
+               placeholder="Enter your password" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"
+               placeholder="Enter your phone number" required><br><br>
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">-- Select Country --</option>
+            <option value="india">India</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
