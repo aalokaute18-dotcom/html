@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AquaMart — Contact</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body id="top">
+  <div class="site">
+    <header class="header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">AquaMart</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <div id="nav-links" class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="cart.html">Cart</a>
+          <a href="contactformarket.html" aria-current="page">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <div class="grid">
+          <form class="form" aria-label="Contact form">
+            <label>
+              <span>Name</span>
+              <input class="input" type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input class="input" type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              <span>Topic</span>
+              <select class="select" name="topic">
+                <option>Order issue</option>
+                <option>Return/Refund</option>
+                <option>Product question</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea class="textarea" name="message" placeholder="How can we help?" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+
+          <div class="map-wrap" role="img" aria-label="Map showing AquaMart store location"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 AquaMart — Built with semantic HTML, responsive CSS Grid & Flexbox.</p>
+    </footer>
+  </div>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
